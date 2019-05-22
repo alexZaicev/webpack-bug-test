@@ -1,0 +1,7 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" shownModally="onShownModally" width="370dp">
+    <DockLayout class="dialog">
+        <Label dock="top" text="DEMO ALERT" class="label" />
+        <TextView dock="top" text="THIS IS ALERT BOX" isEnabled="false" class="text-view-modal" />
+        <Button dock="top" class="button" text="OK" tap="onOkTap" />
+    </DockLayout>
+</Page>
